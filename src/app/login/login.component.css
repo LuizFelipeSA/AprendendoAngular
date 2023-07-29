@@ -1,0 +1,52 @@
+.boxLogin {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.boxLogin h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxLogin-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.boxLogin-label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.boxLogin input[type="text"],
+.boxLogin input[type="password"] {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.boxLogin button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para telas com largura máxima de 600 pixels */
+@media screen and (max-width: 600px) {
+    .boxLogin {
+        width: 80%;
+    }
+
+    .boxLogin h2 {
+        font-size: 24px;
+    }
+}

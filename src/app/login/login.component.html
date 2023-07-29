@@ -1,0 +1,15 @@
+<div class="boxLogin">
+    <h2>Login</h2>
+    <div class="boxLogin-item">
+      <label for="username">Username:</label>
+      <input type="text" id="username" [(ngModel)]="username">
+    </div>
+    <div class="boxLogin-item">
+      <label for="password">Password:</label>
+      <input type="password" id="password" [(ngModel)]="password">
+    </div>
+    <div class="boxLogin-item">
+      <button (click)="onSubmit()">Login</button>
+    </div>
+    <label>Não possui login? <a href="app"> Clique aqui.</a></label>
+  </div>
